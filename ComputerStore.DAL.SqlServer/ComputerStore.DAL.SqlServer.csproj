@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ComputerStore.DAL.Interface\ComputerStore.DAL.Interface.csproj" />
+    <ProjectReference Include="..\ComputerStore.Data\ComputerStore.Data.SqlServer.csproj" />
+    <ProjectReference Include="..\ComputerStore.Entities\ComputerStore.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

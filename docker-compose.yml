@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  computerstore.web:
+    image: computerstore.web
+    build:
+      context: ./ComputerStore.Web
+      dockerfile: Dockerfile

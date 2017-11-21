@@ -1,0 +1,4 @@
+- Complete the SQL Server / EF Core repository
+- Add more front-end functionality (i.e. Angular, other)
+- Add shopping cart and tax/discount calculation
+- Add unit tests
